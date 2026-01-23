@@ -1,4 +1,5 @@
 "use client"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -495,18 +496,16 @@ export default function ProjectsPage() {
             <p className="text-muted-foreground mb-6 leading-relaxed">{selectedProject?.description}</p>
 
             {selectedProject && selectedProject.images && selectedProject.images.length > 0 && (
-              <div className="space-y-4">
+              <div className="space-y-6">
                 {selectedProject.images.map((image, index) => (
-                  <div
-                    key={index}
-                    className="relative w-full min-h-[400px] bg-muted rounded-lg overflow-hidden flex items-center justify-center"
-                  >
+                  <div key={index} className="relative w-full">
                     <Image
                       src={image || "/placeholder.svg"}
                       alt={`${selectedProject.title} - Imagine ${index + 1}`}
                       width={1200}
                       height={800}
-                      className="object-contain w-full h-auto max-h-[600px]"
+                      className="w-full h-auto rounded-md shadow-sm"
+                      style={{ maxWidth: '100%', height: 'auto' }}
                     />
                   </div>
                 ))}
@@ -514,9 +513,8 @@ export default function ProjectsPage() {
             )}
 
             {selectedProject && selectedProject.images && selectedProject.images.length > 0 && (
-              <p className="text-center text-sm text-muted-foreground mt-6">
-                {selectedProject.images.length} {selectedProject.images.length === 1 ? "fotografie" : "fotografii"} în
-                galerie
+              <p className="text-center text-sm text-muted-foreground mt-8 pb-2">
+                {selectedProject.images.length} {selectedProject.images.length === 1 ? "fotografie" : "fotografii"} in galerie
               </p>
             )}
           </div>

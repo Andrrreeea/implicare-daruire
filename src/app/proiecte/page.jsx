@@ -521,60 +521,6 @@ export default function ProjectsPage() {
         </DialogContent>
       </Dialog>
 
-      {/* Impact Statistics */}
-      <section className="py-20 px-4 bg-card/50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance">Impactul nostru în cifre</h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
-              Rezultatele concrete ale muncii noastre în comunitatea din Cugir.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="text-center border-secondary/20">
-              <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-secondary/20 rounded-full flex items-center justify-center mb-4">
-                  <Users className="h-8 w-8 text-secondary" />
-                </div>
-                <CardTitle className="text-3xl font-bold text-secondary">500+</CardTitle>
-                <CardDescription className="text-base">Persoane ajutate</CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center border-primary/20">
-              <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-4">
-                  <CheckCircle className="h-8 w-8 text-primary" />
-                </div>
-                <CardTitle className="text-3xl font-bold text-primary">15+</CardTitle>
-                <CardDescription className="text-base">Proiecte finalizate</CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center border-accent/20">
-              <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mb-4">
-                  <Heart className="h-8 w-8 text-accent" />
-                </div>
-                <CardTitle className="text-3xl font-bold text-accent">200+</CardTitle>
-                <CardDescription className="text-base">Voluntari implicați</CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="text-center border-muted/40">
-              <CardHeader>
-                <div className="mx-auto w-16 h-16 bg-muted/20 rounded-full flex items-center justify-center mb-4">
-                  <Calendar className="h-8 w-8 text-muted-foreground" />
-                </div>
-                <CardTitle className="text-3xl font-bold text-muted-foreground">12</CardTitle>
-                <CardDescription className="text-base">Luni de activitate</CardDescription>
-              </CardHeader>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-secondary/10 via-primary/10 to-accent/10">
         <div className="max-w-4xl mx-auto text-center">

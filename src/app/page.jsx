@@ -83,7 +83,7 @@ export default function HomePage() {
                   className="w-full h-auto"
                 />
               </div>
-              <p className="text-center mt-4 text-sm text-muted-foreground">23 Martie 2026 - Centrul Cultural Cugir</p>
+              <p className="text-center mt-4 text-sm text-muted-foreground">04 Aprilie 2026 - Piateta Casei de Cultura, Cugir</p>
             </div>
 
             {/* Event 2 - Easter Event - Full Image */}
@@ -97,7 +97,7 @@ export default function HomePage() {
                   className="w-full h-auto"
                 />
               </div>
-              <p className="text-center mt-4 text-sm text-muted-foreground">04 Aprilie 2026 - Piateta Casei de Cultura, Cugir</p>
+              <p className="text-center mt-4 text-sm text-muted-foreground">23 Martie 2026 - Centrul Cultural Cugir</p>
             </div>
           </div>
         </div>

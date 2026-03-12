@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { Heart, Users, Target, Calendar, ArrowRight, Phone, Mail } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import { Sparkles } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -56,6 +57,47 @@ export default function HomePage() {
                 />
               </div>
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full blur-3xl" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Upcoming Events Announcement Section */}
+      <section className="py-16 px-4 bg-gradient-to-r from-[#F82053]/5 via-[#FABB88]/5 to-[#9CC05C]/5 border-y border-[#F82053]/10">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex items-center justify-center gap-3 mb-12">
+            <Sparkles className="h-6 w-6 text-[#F82053]" />
+            <h2 className="text-2xl md:text-3xl font-bold text-center">Evenimente in curand</h2>
+            <Sparkles className="h-6 w-6 text-[#F82053]" />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 items-start">
+            {/* Event 1 - Religious Event - Full Image */}
+            <div className="group">
+              <div className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                <Image
+                  src="/anunturi/anunt1.jpg"
+                  alt="Blocajul Credinciosului in Fata Randuielilor Bisericii - Eveniment spiritual"
+                  width={800}
+                  height={1200}
+                  className="w-full h-auto"
+                />
+              </div>
+              <p className="text-center mt-4 text-sm text-muted-foreground">23 Martie 2026 - Centrul Cultural Cugir</p>
+            </div>
+
+            {/* Event 2 - Easter Event - Full Image */}
+            <div className="group">
+              <div className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                <Image
+                  src="/anunturi/anunt2.png"
+                  alt="Zambim Sanatos cu Iepurasul - Eveniment de Paste"
+                  width={800}
+                  height={1200}
+                  className="w-full h-auto"
+                />
+              </div>
+              <p className="text-center mt-4 text-sm text-muted-foreground">04 Aprilie 2026 - Piateta Casei de Cultura, Cugir</p>
             </div>
           </div>
         </div>

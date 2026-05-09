@@ -13,6 +13,62 @@ const projectsData = {
   completed: [
     {
       id: 1,
+      title: "Zâmbim Sănătos cu Iepurașul",
+      period: "04.04.2026",
+      description:
+        "Eveniment dedicat copiilor și persoanelor cu dizabilități, organizat pentru a aduce bucurie, educație și prevenție medicală într-un cadru interactiv și prietenos. Participanții s-au bucurat de ateliere creative, jocuri gonflabile, activități tematice și sesiuni gratuite de verificare a glicemiei și tensiunii arteriale.",
+      beneficiaries: "60+ participanți",
+      category: "Social",
+      status: "Finalizat",
+      statusColor: "bg-green-600",
+      borderColor: "",
+      gradientFrom: "from-green-100",
+      gradientTo: "to-green-50",
+      placeholder: "/dizabilitati_paste/dizabilitati1_2.jpeg",
+      images: [
+        "/dizabilitati_paste/dizabilitati1_2.jpeg",
+        "/dizabilitati_paste/dizabilitati2_2.jpeg",
+        "/dizabilitati_paste/dizabilitati3_2.jpeg",
+        "/dizabilitati_paste/dizabilitati4_2.jpeg", 
+        "/dizabilitati_paste/dizabilitati5_2.jpeg",
+        "/dizabilitati_paste/dizabilitati6_2.jpeg",
+        "/dizabilitati_paste/dizabilitati7_2.jpeg",
+        "/dizabilitati_paste/dizabilitati8_2.jpeg",
+        "/dizabilitati_paste/dizabilitati9_2.jpeg",
+      ],
+    },
+    {
+      id: 2,
+      title: "Blocajul Credinciosului în Fața Rânduielilor Bisericii",
+      period: "23.03.2026",
+      description:
+        "Eveniment spiritual organizat la Centrul Cultural „Valentin Uritescu” din Cugir, avându-l ca invitat special pe Arhimandritul Silvan, starețul Mănăstirii Oașa. Participanții au avut parte de un moment de reflecție și aprofundare spirituală, completat de un concert de pricesne susținut de artiști și grupuri corale locale.",
+      beneficiaries: "80+ participanți",
+      category: "Spiritual",
+      status: "Finalizat",
+      statusColor: "bg-green-600",
+      borderColor: "",
+      gradientFrom: "from-green-100",
+      gradientTo: "to-green-50",
+      placeholder: "/biserica/biserica1.jpg",
+      images: [
+        "/biserica/biserica1.jpg",
+        "/biserica/biserica2.jpeg",
+        "/biserica/biserica3.jpeg",
+        "/biserica/biserica4.jpeg",
+        "/biserica/biserica5.jpeg", 
+        "/biserica/biserica6.jpeg",
+        "/biserica/biserica7.jpeg",
+        "/biserica/biserica8.jpeg",
+        "/biserica/biserica9.jpeg",
+        "/biserica/biserica10.jpeg",
+        "/biserica/biserica11.jpeg",
+        "/biserica/biserica12.jpeg",
+        "/biserica/biserica13.jpeg",
+      ],
+    },
+    {
+      id: 3,
       title: "Ziua Mondială a Diabetului, Ediția a IV-a",
       period: "14.11.2025",
       description:
@@ -38,7 +94,7 @@ const projectsData = {
     },
 
     {
-      id: 2,
+      id: 4,
       title: "Activitate cu copiii de Paște 2025",
       period: "12.04.2025",
       description:
@@ -61,7 +117,7 @@ const projectsData = {
     },
 
     {
-      id: 3,
+      id: 5,
       title: "Începere an școlar septembrie 2025",
       period: "28.09.2025",
       description:
@@ -91,7 +147,7 @@ const projectsData = {
     },
 
     {
-      id: 4,
+      id: 6,
       title: "Campanie de tuns înainte de începerea anului școlar 2025",
       period: "15.09.2025",
       description:
@@ -117,7 +173,7 @@ const projectsData = {
     },
 
     {
-      id: 5,
+      id: 7,
       title: "Activitate Ziua Copilului 2025",
       period: "01.06.2025",
       description:
@@ -141,7 +197,7 @@ const projectsData = {
     },
 
     {
-      id: 6,
+      id: 8,
       title: "Ziua Mondiala a diabetului, Ediția a III-a",
       period: "14.11.2024",
       description:
@@ -164,7 +220,7 @@ const projectsData = {
     },
 
     {
-      id: 7,
+      id: 9,
       title: "Începere an școlar septembrie 2024",
       period: "09.09.2024",
       description:
@@ -187,7 +243,7 @@ const projectsData = {
     },
 
     {
-      id: 8,
+      id: 10,
       title: "Participare cu stand la Toamna Cugireana 2024",
       period: "20.09.2024",
       description:
@@ -209,7 +265,7 @@ const projectsData = {
     },
 
     {
-      id: 9,
+      id: 11,
       title: "Activitate Ziua Copilului 2024",
       period: "01.06.2024",
       description:
@@ -246,7 +302,7 @@ const projectsData = {
     },
 
     {
-      id: 10,
+      id: 12,
       title: " Activitate cu copiii cu dizabilități și frații acestora de Paște",
       period: "28.04.2024",
       description:
@@ -273,7 +329,7 @@ const projectsData = {
     },
 
     {
-      id: 11,
+      id: 13,
       title: "Ziua Internatională a persoanelor cu dizabilități",
       period: "03.12.2023",
       description:
@@ -306,7 +362,7 @@ const projectsData = {
       ],
     },
     {
-      id: 12,
+      id: 14,
       title: "Ziua mondială a diabetului, Ediția a II-a",
       period: "14.11.2023",
       description:
@@ -336,7 +392,7 @@ const projectsData = {
       ],
     },
     {
-      id: 13,
+      id: 15,
       title: "Ziua mondială a diabetului, Ediția I",
       period: "14.11.2022",
       description:

@@ -72,32 +72,20 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 items-start">
-            {/* Event 1 - Religious Event - Full Image */}
+           {/* Event - Balul Florilor de Mai */}
             <div className="group">
               <div className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                 <Image
-                  src="/anunturi/anunt1.jpg"
-                  alt="Blocajul Credinciosului in Fata Randuielilor Bisericii - Eveniment spiritual"
+                  src="/anunturi/anunt3.jpeg"
+                  alt="Balul Florilor de Mai - Eveniment caritabil"
                   width={800}
                   height={1200}
                   className="w-full h-auto"
                 />
               </div>
-              <p className="text-center mt-4 text-sm text-muted-foreground">04 Aprilie 2026 - Piateta Casei de Cultura, Cugir</p>
-            </div>
-
-            {/* Event 2 - Easter Event - Full Image */}
-            <div className="group">
-              <div className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-                <Image
-                  src="/anunturi/anunt2.png"
-                  alt="Zambim Sanatos cu Iepurasul - Eveniment de Paste"
-                  width={800}
-                  height={1200}
-                  className="w-full h-auto"
-                />
-              </div>
-              <p className="text-center mt-4 text-sm text-muted-foreground">23 Martie 2026 - Centrul Cultural Cugir</p>
+              <p className="text-center mt-4 text-sm text-muted-foreground">
+                22 Mai 2026, ora 18:00 - Restaurant Bellys Elegance, Cugir
+              </p>
             </div>
           </div>
         </div>

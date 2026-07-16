@@ -62,7 +62,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Upcoming Events Announcement Section */}
+      {/* Upcoming Events Announcement Section
       <section className="py-16 px-4 bg-gradient-to-r from-[#F82053]/5 via-[#FABB88]/5 to-[#9CC05C]/5 border-y border-[#F82053]/10">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center justify-center gap-3 mb-12">
@@ -70,26 +70,8 @@ export default function HomePage() {
             <h2 className="text-2xl md:text-3xl font-bold text-center">Evenimente in curand</h2>
             <Sparkles className="h-6 w-6 text-[#F82053]" />
           </div>
-
-          <div className="grid md:grid-cols-2 gap-8 items-start">
-           {/* Event - Balul Florilor de Mai */}
-            <div className="group">
-              <div className="overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
-                <Image
-                  src="/anunturi/anunt3.jpeg"
-                  alt="Balul Florilor de Mai - Eveniment caritabil"
-                  width={800}
-                  height={1200}
-                  className="w-full h-auto"
-                />
-              </div>
-              <p className="text-center mt-4 text-sm text-muted-foreground">
-                22 Mai 2026, ora 18:00 - Restaurant Bellys Elegance, Cugir
-              </p>
-            </div>
-          </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Mission Section */}
       <section className="py-20 px-4">

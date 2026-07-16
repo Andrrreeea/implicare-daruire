@@ -11,8 +11,60 @@ import { useState } from "react"
 
 const projectsData = {
   completed: [
+  {
+  id: 1,
+  title: "Ziua Copilului – 1 Iunie",
+  period: "01.06.2026",
+  description:
+    "Cu ocazia Zilei Internaționale a Copilului, asociația a organizat un stand în parc, unde cei mici au fost întâmpinați cu baloane, surprize și mici cadouri. Activitatea a creat un spațiu prietenos de socializare și bucurie, oferind copiilor momente speciale și promovând implicarea comunității în susținerea acestora.",
+  beneficiaries: "100+ copii și familii",
+  category: "Social",
+  status: "Finalizat",
+  statusColor: "bg-green-600",
+  borderColor: "",
+  gradientFrom: "from-yellow-100",
+  gradientTo: "to-orange-50",
+  placeholder: "/1_iunie/1iunie1.jpeg",
+  images: [
+    "/1iunie/ziua_copilului1_2.jpeg",
+    "/1iunie/ziua_copilului2_2.jpeg",
+    "/1iunie/ziua_copilului3_2.jpeg",
+    "/1iunie/ziua_copilului4_2.jpeg",
+    "/1iunie/ziua_copilului5_2.jpeg",
+    "/1iunie/ziua_copilului6_2.jpeg",
+    "/1iunie/ziua_copilului7_2.jpeg",
+    "/1iunie/ziua_copilului8_2.jpeg",
+    "/1iunie/ziua_copilului9_2.jpeg",
+  ],
+},
+  {
+  id: 2,
+  title: "Balul Florilor de Mai",
+  period: "22.05.2026",
+  description:
+    "Eveniment caritabil organizat pentru a reuni comunitatea într-o atmosferă elegantă și festivă, având ca scop strângerea de donații pentru susținerea proiectelor și activităților desfășurate de Asociația „Implicare și dăruire Cugir”. Invitații au contribuit prin donații, sprijinind inițiativele dedicate persoanelor aflate în nevoie și dezvoltării proiectelor sociale.",
+  beneficiaries: "Comunitatea locală",
+  category: "Caritabil",
+  status: "Finalizat",
+  statusColor: "bg-green-600",
+  borderColor: "",
+  gradientFrom: "from-pink-100",
+  gradientTo: "to-rose-50",
+  placeholder: "/bal_florilor/bal1.jpeg",
+  images: [
+    "/balul_florilor_mai/bal_1.jpeg",
+    "/balul_florilor_mai/bal_2.jpeg",
+    "/balul_florilor_mai/bal_3.jpeg",
+    "/balul_florilor_mai/bal_4.jpeg",
+    "/balul_florilor_mai/bal_5.jpeg",
+    "/balul_florilor_mai/bal_6.jpeg",
+    "/balul_florilor_mai/bal_7.jpeg",
+    "/balul_florilor_mai/bal_8.jpeg",
+    "/balul_florilor_mai/bal_9.jpeg",
+  ],
+},
     {
-      id: 1,
+      id: 3,
       title: "Zâmbim Sănătos cu Iepurașul",
       period: "04.04.2026",
       description:
@@ -38,7 +90,7 @@ const projectsData = {
       ],
     },
     {
-      id: 2,
+      id: 4,
       title: "Blocajul Credinciosului în Fața Rânduielilor Bisericii",
       period: "23.03.2026",
       description:
@@ -68,7 +120,7 @@ const projectsData = {
       ],
     },
     {
-      id: 3,
+      id: 5,
       title: "Ziua Mondială a Diabetului, Ediția a IV-a",
       period: "14.11.2025",
       description:
@@ -94,7 +146,7 @@ const projectsData = {
     },
 
     {
-      id: 4,
+      id: 6,
       title: "Activitate cu copiii de Paște 2025",
       period: "12.04.2025",
       description:
@@ -117,7 +169,7 @@ const projectsData = {
     },
 
     {
-      id: 5,
+      id: 7,
       title: "Începere an școlar septembrie 2025",
       period: "28.09.2025",
       description:
@@ -147,7 +199,7 @@ const projectsData = {
     },
 
     {
-      id: 6,
+      id: 8,
       title: "Campanie de tuns înainte de începerea anului școlar 2025",
       period: "15.09.2025",
       description:
@@ -173,7 +225,7 @@ const projectsData = {
     },
 
     {
-      id: 7,
+      id: 9,
       title: "Activitate Ziua Copilului 2025",
       period: "01.06.2025",
       description:
@@ -197,7 +249,7 @@ const projectsData = {
     },
 
     {
-      id: 8,
+      id: 10,
       title: "Ziua Mondiala a diabetului, Ediția a III-a",
       period: "14.11.2024",
       description:
@@ -220,7 +272,7 @@ const projectsData = {
     },
 
     {
-      id: 9,
+      id: 11,
       title: "Începere an școlar septembrie 2024",
       period: "09.09.2024",
       description:
@@ -243,7 +295,7 @@ const projectsData = {
     },
 
     {
-      id: 10,
+      id: 12,
       title: "Participare cu stand la Toamna Cugireana 2024",
       period: "20.09.2024",
       description:
@@ -265,7 +317,7 @@ const projectsData = {
     },
 
     {
-      id: 11,
+      id: 13,
       title: "Activitate Ziua Copilului 2024",
       period: "01.06.2024",
       description:
@@ -302,7 +354,7 @@ const projectsData = {
     },
 
     {
-      id: 12,
+      id: 14,
       title: " Activitate cu copiii cu dizabilități și frații acestora de Paște",
       period: "28.04.2024",
       description:
@@ -329,7 +381,7 @@ const projectsData = {
     },
 
     {
-      id: 13,
+      id: 15,
       title: "Ziua Internatională a persoanelor cu dizabilități",
       period: "03.12.2023",
       description:
@@ -362,7 +414,7 @@ const projectsData = {
       ],
     },
     {
-      id: 14,
+      id: 16,
       title: "Ziua mondială a diabetului, Ediția a II-a",
       period: "14.11.2023",
       description:
@@ -392,7 +444,7 @@ const projectsData = {
       ],
     },
     {
-      id: 15,
+      id: 17,
       title: "Ziua mondială a diabetului, Ediția I",
       period: "14.11.2022",
       description:

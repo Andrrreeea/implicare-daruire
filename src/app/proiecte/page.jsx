@@ -11,8 +11,95 @@ import { useState } from "react"
 
 const projectsData = {
   completed: [
-  {
+
+{
   id: 1,
+  title: "Rechizite și bucurii pentru elevii de la Singidava",
+  period: "2026",
+  description:
+    "Asociația „Implicare și Dăruire Cugir” a adus zâmbete și bucurie elevilor din clasele speciale ale Școlii Gimnaziale „Singidava” din Cugir, printr-o acțiune dedicată sprijinirii educației și incluziunii. Copiii au primit rechizite școlare și dulciuri, mici daruri oferite din suflet pentru a le face zilele de școală mai frumoase. Prin această inițiativă, asociația și-a dorit să le transmită celor mici că nu sunt singuri și că fiecare copil merită să fie încurajat, apreciat și susținut în parcursul său educațional. Activitatea a reprezentat încă un pas în construirea unei comunități mai empatice, în care grija și solidaritatea se transformă în fapte concrete.",
+  beneficiaries: "Elevi",
+  category: "Educație",
+  status: "Finalizat",
+  statusColor: "bg-green-600",
+  borderColor: "",
+  gradientFrom: "from-yellow-100",
+  gradientTo: "to-amber-50",
+  placeholder: "/singidava/singidava1.jpeg",
+  images: [
+    "/scoala/rechizite2_3.jpeg",
+    "/scoala/rechizite3_3.jpeg",
+    "/scoala/rechizite4_3.jpeg",
+    "/scoala/rechizite5_3.jpeg",
+    "/scoala/rechizite6_3.jpeg",
+    "/scoala/rechizite7_3.jpeg",
+    "/scoala/rechizite8_3.jpeg",
+    "/scoala/rechizite9_3.jpeg",
+    "/scoala/rechizite10_3.jpeg",
+    "/scoala/rechizite11_3.jpeg",
+    "/scoala/rechizite12_3.jpeg",
+    "/scoala/rechizite13_3.jpeg"
+  ],
+},
+    
+{
+  id: 2,
+  title: "Activitate de socializare cu copiii la Restaurant Elegance Cugir",
+  period: "2026",
+  description:
+    "Asociația „Implicare și Dăruire Cugir” a organizat o activitate dedicată socializării și petrecerii timpului împreună, într-o atmosferă caldă și prietenoasă, la Restaurant Elegance din Cugir. Evenimentul a oferit copiilor ocazia de a interacționa, de a lega prietenii și de a se bucura de momente frumoase alături de ceilalți participanți. Prin această inițiativă, asociația a urmărit să încurajeze incluziunea, comunicarea și sentimentul de apartenență la comunitate, demonstrând că timpul și atenția oferite celor mici pot face o diferență importantă.",
+  beneficiaries: "Copii din comunitatea locală",
+  category: "Social",
+  status: "Finalizat",
+  statusColor: "bg-green-600",
+  borderColor: "",
+  gradientFrom: "from-pink-100",
+  gradientTo: "to-rose-50",
+  placeholder: "/socializare/socializare1.jpeg",
+  images: [
+    "/socializare/socializare1.jpeg",
+    "/socializare/socializare2.jpeg",
+    "/socializare/socializare3.jpeg",
+    "/socializare/socializare4.jpeg",
+    "/socializare/socializare5.jpeg",
+    "/socializare/socializare6.jpeg",
+    "/socializare/socializare7.jpeg",
+    "/socializare/socializare8.jpeg",
+    "/socializare/socializare9.jpeg",
+    "/socializare/socializare10.jpeg",
+    "/socializare/socializare11.jpeg",
+    "/socializare/socializare12.jpeg"
+  ],
+},
+  
+{
+  id: 3,
+  title: "Campania „Dăruiește un ghiozdan unui copil cu nevoi”",
+  period: "2026",
+  description:
+    "Prin campania „Dăruiește un ghiozdan unui copil cu nevoi”, Asociația „Implicare și Dăruire Cugir” a adus un strop de bucurie și speranță în viața copiilor proveniți din familii vulnerabile. Prin implicarea comunității și generozitatea celor care au ales să dăruiască, aproximativ 20 de copii au beneficiat de sprijin pentru pregătirea noului an școlar. Campania a demonstrat că gesturile simple, făcute din suflet, pot avea un impact important asupra educației și încrederii celor mici.",
+  beneficiaries: "Aproximativ 20 de copii",
+  category: "Educație",
+  status: "Finalizat",
+  statusColor: "bg-green-600",
+  borderColor: "",
+  gradientFrom: "from-yellow-100",
+  gradientTo: "to-orange-50",
+  placeholder: "/ghiozdane/ghiozdane1.jpeg",
+  images: [
+    "/scoala/rechizite1_2.jpeg",
+    "/scoala/rechizite2_2.jpeg",
+    "/scoala/rechizite3_2.jpeg",
+    "/scoala/rechizite4_2.jpeg",
+    "/scoala/rechizite5_2.jpeg",
+    "/scoala/rechizite6_2.jpeg",
+    "/scoala/rechizite7_2.jpeg",
+    "/scoala/rechizite8_2.jpeg"
+  ],
+},
+
+  {
+  id: 4,
   title: "Ziua Copilului – 1 Iunie",
   period: "01.06.2026",
   description:
@@ -38,7 +125,7 @@ const projectsData = {
   ],
 },
   {
-  id: 2,
+  id: 5,
   title: "Balul Florilor de Mai",
   period: "22.05.2026",
   description:
@@ -64,7 +151,7 @@ const projectsData = {
   ],
 },
     {
-      id: 3,
+      id: 6,
       title: "Zâmbim Sănătos cu Iepurașul",
       period: "04.04.2026",
       description:
@@ -90,7 +177,7 @@ const projectsData = {
       ],
     },
     {
-      id: 4,
+      id: 7,
       title: "Blocajul Credinciosului în Fața Rânduielilor Bisericii",
       period: "23.03.2026",
       description:
@@ -120,7 +207,7 @@ const projectsData = {
       ],
     },
     {
-      id: 5,
+      id: 8,
       title: "Ziua Mondială a Diabetului, Ediția a IV-a",
       period: "14.11.2025",
       description:
@@ -146,7 +233,7 @@ const projectsData = {
     },
 
     {
-      id: 6,
+      id: 9,
       title: "Activitate cu copiii de Paște 2025",
       period: "12.04.2025",
       description:
@@ -169,7 +256,7 @@ const projectsData = {
     },
 
     {
-      id: 7,
+      id: 10,
       title: "Începere an școlar septembrie 2025",
       period: "28.09.2025",
       description:
@@ -199,7 +286,7 @@ const projectsData = {
     },
 
     {
-      id: 8,
+      id: 11,
       title: "Campanie de tuns înainte de începerea anului școlar 2025",
       period: "15.09.2025",
       description:
@@ -225,7 +312,7 @@ const projectsData = {
     },
 
     {
-      id: 9,
+      id: 12,
       title: "Activitate Ziua Copilului 2025",
       period: "01.06.2025",
       description:
@@ -249,7 +336,7 @@ const projectsData = {
     },
 
     {
-      id: 10,
+      id: 13,
       title: "Ziua Mondiala a diabetului, Ediția a III-a",
       period: "14.11.2024",
       description:
@@ -272,7 +359,7 @@ const projectsData = {
     },
 
     {
-      id: 11,
+      id: 14,
       title: "Începere an școlar septembrie 2024",
       period: "09.09.2024",
       description:
@@ -295,7 +382,7 @@ const projectsData = {
     },
 
     {
-      id: 12,
+      id: 15,
       title: "Participare cu stand la Toamna Cugireana 2024",
       period: "20.09.2024",
       description:
@@ -317,7 +404,7 @@ const projectsData = {
     },
 
     {
-      id: 13,
+      id: 16,
       title: "Activitate Ziua Copilului 2024",
       period: "01.06.2024",
       description:
@@ -354,7 +441,7 @@ const projectsData = {
     },
 
     {
-      id: 14,
+      id: 17,
       title: " Activitate cu copiii cu dizabilități și frații acestora de Paște",
       period: "28.04.2024",
       description:
@@ -381,7 +468,7 @@ const projectsData = {
     },
 
     {
-      id: 15,
+      id: 18,
       title: "Ziua Internatională a persoanelor cu dizabilități",
       period: "03.12.2023",
       description:
@@ -414,7 +501,7 @@ const projectsData = {
       ],
     },
     {
-      id: 16,
+      id: 19,
       title: "Ziua mondială a diabetului, Ediția a II-a",
       period: "14.11.2023",
       description:
@@ -444,7 +531,7 @@ const projectsData = {
       ],
     },
     {
-      id: 17,
+      id: 20,
       title: "Ziua mondială a diabetului, Ediția I",
       period: "14.11.2022",
       description:

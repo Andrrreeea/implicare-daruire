@@ -62,16 +62,87 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Upcoming Events Announcement Section
-      <section className="py-16 px-4 bg-gradient-to-r from-[#F82053]/5 via-[#FABB88]/5 to-[#9CC05C]/5 border-y border-[#F82053]/10">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex items-center justify-center gap-3 mb-12">
-            <Sparkles className="h-6 w-6 text-[#F82053]" />
-            <h2 className="text-2xl md:text-3xl font-bold text-center">Evenimente in curand</h2>
-            <Sparkles className="h-6 w-6 text-[#F82053]" />
-          </div>
+      
+{/* Upcoming Events Announcement Section */}
+<section className="py-16 px-4 bg-gradient-to-r from-[#F82053]/5 via-[#FABB88]/5 to-[#9CC05C]/5 border-y border-[#F82053]/10">
+  <div className="max-w-6xl mx-auto">
+    <div className="flex items-center justify-center gap-3 mb-4">
+      <Sparkles className="h-6 w-6 text-[#F82053]" />
+      <h2 className="text-2xl md:text-3xl font-bold text-center">
+        Evenimente în curând
+      </h2>
+      <Sparkles className="h-6 w-6 text-[#F82053]" />
+    </div>
+
+    <p className="text-center text-muted-foreground mb-10">
+      Descoperă următoarele evenimente organizate pentru comunitatea noastră.
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-8">
+      <Card className="overflow-hidden border-purple-200 hover:shadow-xl transition-all duration-300">
+        <div className="relative aspect-[4/5] bg-purple-50">
+          <Image
+            src="/anunturi/anunt4.jpeg"
+            alt="Afiș Petrecere de Halloween"
+            fill
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
         </div>
-      </section> */}
+        <CardHeader>
+          <Badge className="w-fit bg-purple-700 hover:bg-purple-700 text-white">
+            30 octombrie 2026
+          </Badge>
+          <CardTitle className="text-2xl">
+            Petrecere de Halloween
+          </CardTitle>
+          <CardDescription>
+            Ora 16:00 · Restaurant Elegance Bellys, Cugir
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-muted-foreground leading-relaxed">
+            O după-amiază plină de costume, jocuri, dulciuri și surprize
+            pentru cei mici! Participarea se face printr-o donație de
+            minimum 10 lei, fondurile fiind destinate susținerii a două
+            cazuri de recuperare medicală.
+          </p>
+        </CardContent>
+      </Card>
+
+      <Card className="overflow-hidden border-sky-200 hover:shadow-xl transition-all duration-300">
+        <div className="relative aspect-[4/5] bg-sky-50">
+          <Image
+            src="/anunturi/anunt5.jpeg"
+            alt="Afiș Ziua Mondială a Diabetului"
+            fill
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+        </div>
+        <CardHeader>
+          <Badge className="w-fit bg-sky-600 hover:bg-sky-600 text-white">
+            12 noiembrie 2026
+          </Badge>
+          <CardTitle className="text-2xl">
+            Ziua Mondială a Diabetului – Ediția a V-a
+          </CardTitle>
+          <CardDescription>
+            Ora 16:00 · Restaurant Elegance Bellys, Cugir
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <p className="text-muted-foreground leading-relaxed">
+            Un eveniment dedicat sănătății și informării comunității,
+            cu prezentări medicale, testarea glicemiei și o tombolă
+            cu premii. Te așteptăm alături de noi!
+          </p>
+        </CardContent>
+      </Card>
+    </div>
+  </div>
+</section>
+
 
       {/* Mission Section */}
       <section className="py-20 px-4">

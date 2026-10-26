@@ -78,7 +78,65 @@ export default function HomePage() {
       Descoperă următoarele evenimente organizate pentru comunitatea noastră.
     </p>
 
-    <div className="grid md:grid-cols-2 gap-8">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Campania caritabilă - Alături de Noah */}
+<Card className="overflow-hidden border-amber-200 hover:shadow-xl transition-all duration-300">
+  <div className="relative aspect-[4/5] bg-[#102445]">
+    <Image
+      src="/anunturi/anunt6.jpeg"
+      alt="Campania caritabilă Alături de Noah, pas cu pas"
+      fill
+      className="object-contain"
+      sizes="(max-width: 768px) 100vw, 33vw"
+    />
+  </div>
+
+  <CardHeader>
+    <Badge className="w-fit bg-[#102445] hover:bg-[#102445] text-white">
+      31 octombrie – 1 noiembrie 2026
+    </Badge>
+
+    <CardTitle className="text-2xl">
+      Alături de Noah, pas cu pas
+    </CardTitle>
+
+    <CardDescription>
+      Campanie caritabilă · Cugir
+    </CardDescription>
+  </CardHeader>
+
+  <CardContent>
+    <p className="text-muted-foreground leading-relaxed mb-4">
+      Ne unim forțele pentru a-l sprijini pe Noah prin două
+      evenimente caritabile organizate în comunitatea din Cugir.
+      Fiecare gest de solidaritate contează!
+    </p>
+
+    <div className="space-y-3 text-sm">
+      <div>
+        <p className="font-semibold">
+          🎬 31 octombrie · Ora 17:00
+        </p>
+        <p className="text-muted-foreground">
+          Seară de film la Centrul Cultural „Valentin Uritescu”
+          Cugir. Proiecția a două filme, cu intrare pe bază
+          de donație.
+        </p>
+      </div>
+
+      <div>
+        <p className="font-semibold">
+          💛 1 noiembrie · 11:00–17:00
+        </p>
+        <p className="text-muted-foreground">
+          Târg caritabil în parcarea Macul Roșu, Cugir,
+          cu standuri, bunătăți, activități și tombolă
+          cu premii.
+        </p>
+      </div>
+    </div>
+  </CardContent>
+</Card>
       <Card className="overflow-hidden border-purple-200 hover:shadow-xl transition-all duration-300">
         <div className="relative aspect-[4/5] bg-purple-50">
           <Image
